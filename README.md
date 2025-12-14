@@ -6,8 +6,8 @@ The solution includes data preprocessing, model training, and an interactive Str
 
 Only train.csv from Kaggle is used. The dataset is split into training and validation sets as part of the training process.
 
-Setup
-Requirements
+# Setup
+# Requirements
 
 Python 3.9+
 
@@ -17,7 +17,7 @@ Install dependencies:
 
 pip install -r requirements.txt
 
-Training
+# Training
 
 To train the model, run:
 
@@ -36,7 +36,7 @@ Trains a PyTorch classification model
 
 Saves the trained artifacts to disk
 
-Inference & Evaluation (Streamlit)
+# Inference & Evaluation (Streamlit)
 
 To launch the Streamlit app:
 
@@ -63,7 +63,7 @@ Supports adjusting the classification threshold interactively
 
 The app can also be used to evaluate the held-out validation split saved during training.
 
-Artifacts
+# Artifacts
 
 After training, the following files are created:
 
@@ -73,7 +73,7 @@ artifacts/preprocessor.pkl – fitted preprocessing pipeline
 
 These artifacts are loaded by the Streamlit app for inference and evaluation.
 
-Model & Preprocessing (Summary)
+# Model & Preprocessing (Summary)
 
 Numerical features: median imputation + standard scaling
 
