@@ -88,6 +88,7 @@ The uploaded CSV can be either the original train.csv or the validation split sa
 ## Exploratory Data Analysis
 
 Exploratory data analysis (EDA) is provided in the Jupyter notebook `Titanic_eda.ipynb`.
+EDA revealed that Sex and Pclass are the strongest predictors of survival, which guided the feature selection and preprocessing choices.
 
 ## Example Usage
 
