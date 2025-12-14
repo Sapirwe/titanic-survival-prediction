@@ -17,6 +17,7 @@ Only `train.csv` from Kaggle is used. The dataset is split into training and val
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
 
 ## Training
 
