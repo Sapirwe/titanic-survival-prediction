@@ -76,6 +76,7 @@ artifacts/preprocessor.pkl – fitted preprocessing pipeline
 artifacts/val.csv – held-out validation split
 
 These artifacts are loaded by the Streamlit app for inference and evaluation.
+The uploaded CSV can be either the original train.csv or the validation split saved during training.
 
 ## Model & Preprocessing (Summary)
 
@@ -87,3 +88,9 @@ These artifacts are loaded by the Streamlit app for inference and evaluation.
 ## Exploratory Data Analysis
 
 Exploratory data analysis (EDA) is provided in the Jupyter notebook `Titanic_eda.ipynb`.
+
+## Example Usage
+
+Below is an example of the Streamlit application after uploading a labeled CSV file.
+<img width="1205" height="837" alt="image" src="https://github.com/user-attachments/assets/ef756cc1-84c7-49f5-949e-c7a38834d23d" />
+
