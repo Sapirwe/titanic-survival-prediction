@@ -82,3 +82,5 @@ Categorical features: most-frequent imputation + one-hot encoding
 Model: feedforward neural network (2 fully connected layers)
 
 Loss: Binary Cross Entropy with Logits
+
+# Exploratory data analysis (EDA) is provided in eda.ipynb.
