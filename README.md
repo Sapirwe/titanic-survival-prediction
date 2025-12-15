@@ -12,12 +12,21 @@ Only `train.csv` from Kaggle is used. The dataset is split into training and val
 
 ### Requirements
 - Python 3.9+
-- Kaggle API credentials (`kaggle.json`)
 
 Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+### Kaggle API Access
+
+This project downloads the Titanic dataset directly from Kaggle.
+To enable this, you must have a Kaggle API token.
+
+Place your `kaggle.json` file in:
+~/.kaggle/kaggle.json
+
+See: https://www.kaggle.com/docs/api
 
 ## Training
 
